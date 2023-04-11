@@ -1,0 +1,17 @@
+APP_NAME=flash
+APP_URL=https://flash.phixtz.com
+APP_LANGUAGE=english
+ALERTBOX_TITLE="flash message box"
+
+# ENCRIPTION/DECRIPTION KEY
+KEY=benvwolhfdgknvc
+
+SEVER_NAME=
+DB_USER_NAME=
+DB_NAME=
+PASSWORD=
+
+
+# Email
+EMAIL_USERNAME=qwert
+EMAIL_PASSWORD=

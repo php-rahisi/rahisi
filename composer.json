@@ -1,0 +1,28 @@
+{
+    "name": "rahisi/rahisi",
+    "type": "project",
+    "require": {
+        "php": "^8.1.6",
+        "rahisi/rahisi-db": "dev-main",
+        "rahisi/token": "dev-main",
+        "symfony/dotenv": "6.3.x-dev",
+        "phpmailer/phpmailer": "^6.8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rahisi\\Routes\\": "vendor/rahisi/routes",
+            "Rahisi\\Commands\\": "vendor/rahisi/commands/src",
+            "Framework\\": "vendor/framework/src",
+            "Database\\": "Database/",
+            "App\\": "App/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "joshtheone",
+            "email": "joshtheone70@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}

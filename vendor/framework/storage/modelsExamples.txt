@@ -1,0 +1,20 @@
+<?php
+namespace App\Models;
+
+use Rahisi\RahisiDb\table;
+
+class $model extends table
+{
+    
+    public $table = "$model";
+
+    public function __construct()
+    {
+        new table($this->table);
+    }
+
+    public function find($id)
+    {
+        return $this->where(["id"=> $id])->get()[0];
+    }
+}
